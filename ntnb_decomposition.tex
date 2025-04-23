@@ -16,7 +16,7 @@
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{definition}[theorem]{Definition}
 
-\newcommand{\DOI}{https://github.com/fe-lipe-c}
+\newcommand{\DOI}{https://github.com/fe-lipe-c/ntnb\_total\_return}
 \newcommand{\monthyear}{Month Year}
 
 \newenvironment{exercise}[1]
@@ -38,6 +38,7 @@
 		\Huge{\textbf{NTN-B - Return Decomposition}}\\
 		\vfill
 		\large Felipe Costa\\
+		\large Carlos Carvalho\\
 		\vfill
 		\normalsize Related material at:\\
 		\DOI
@@ -261,66 +262,63 @@ This reformulation demonstrates that $P_{s,T} + C_s$ can be expressed as a sum o
 	R_{t}^{c} & = \underbrace{\frac{D_{t,T}(y_{t})}{D_{t,T}(y_{k})}\prod_{i=1}^{k}\left( \frac{D_{i,T}^{c_i}(y_{i})}{D_{i,T}^{c_i}(y_{i-1})} \right)}_{\text{Mark-to-Market}} \underbrace{\frac{D_{t,T}(y_{k})}{D_{k,T}(y_{k})}\prod_{i=1}^{k}\left( \frac{D_{i,T}^{c_i}(y_{i-1})}{D_{i-1,T}(y_{i-1})} \right)}_{\text{Real Yield}} \underbrace{\left(1 + \pi_{k,t}\right) \prod_{i=1}^{k}\left(1 + \pi_{i-1,i}\right)}_{\text{Inflation}}
 \end{align*}
 
-\fbox{
-	\begin{minipage}{0.85\textwidth}
-		\textbf{Example: NTN-B Return 2024}
-		\vspace{0.5cm}
+\textbf{Example: NTN-B Return 2024}
+\vspace{0.5cm}
 
-		We examine the performance of some NTN-Bs, all covering the period from 01/02/2024 to 11/04/2025. The plots shows the evolution of the return and its components.
-		\vspace{0.25cm}
+We examine the performance of some NTN-Bs, all covering the period from 01/02/2024 to 11/04/2025. The plots shows the evolution of the return and its components.
+\vspace{0.25cm}
 
-		---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
-		Maturity: 05/15/2025
+Maturity: 05/15/2025
 
-		Initial rate: 5.50\%
+Initial rate: 5.50\%
 
-		Final rate: 8.09\%
-		\vspace{0.25cm}
-		\begin{center}
-			\includegraphics[width=0.8\textwidth]{img/return_B25.png}
-		\end{center}
+Final rate: 8.09\%
+\vspace{0.25cm}
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{img/return_B25.png}
+\end{center}
 
-		---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
-		Maturity: 08/15/2030
+Maturity: 08/15/2030
 
-		Initial rate: 5.21\%
+Initial rate: 5.21\%
 
-		Final rate: 7.81\%
-		\vspace{0.25cm}
-		\begin{center}
-			\includegraphics[width=0.8\textwidth]{img/return_B30.png}
-		\end{center}
+Final rate: 7.81\%
+\vspace{0.25cm}
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{img/return_B30.png}
+\end{center}
 
-		---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
-		Maturity: 05/15/2045
+Maturity: 05/15/2045
 
-		Initial rate: 5.48\%
+Initial rate: 5.48\%
 
-		Final rate: 7.48\%
-		\vspace{0.25cm}
-		\begin{center}
-			\includegraphics[width=0.8\textwidth]{img/return_B45.png}
-		\end{center}
+Final rate: 7.48\%
+\vspace{0.25cm}
+\begin{center}
+	\includegraphics[width=0.8\textwidth]{img/return_B45.png}
+\end{center}
 
-		---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
-		Maturity: 08/15/2060
+Maturity: 08/15/2060
 
-		Initial rate: 5.49\%
+Initial rate: 5.49\%
 
-		Final rate: 7.32\%
-		\vspace{0.25cm}
-		\begin{center}
-			\includegraphics[width=0.8\textwidth]{img/return_B60.png}
-		\end{center}
+Final rate: 7.32\%
+\vspace{0.25cm}
+\begin{center}
+	\includegraphics[width=0.8\textwidth]{img/return_B60.png}
+\end{center}
 
-		\vspace{0.5cm}
+\vspace{0.5cm}
 
 
-	\end{minipage}}
 
 
 \pagebreak
